@@ -71,8 +71,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)\..\Build\$(PlatformName)\$(Configuration)\v1\</OutDir>
-    <IntDir>$(SolutionDir)\..\Build\$(PlatformName)\$(Configuration)\v1\obj\</IntDir>
+    <OutDir>$(SolutionDir)\Build\$(PlatformName)\$(Configuration)\v1\</OutDir>
+    <IntDir>$(SolutionDir)\Build\$(PlatformName)\$(Configuration)\v1\obj\</IntDir>
     <TargetName>dllCommon</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
