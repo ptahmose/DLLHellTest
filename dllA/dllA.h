@@ -12,4 +12,4 @@
 
 #include <string>
 
-DLLA_API std::string GetTextA(void);
+DLLA_API std::string WINAPI GetTextA(void);

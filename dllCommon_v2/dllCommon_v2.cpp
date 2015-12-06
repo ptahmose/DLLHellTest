@@ -5,7 +5,7 @@
 #include "dllCommon_v2.h"
 
 
-DLLCOMMON_V2_API std::string getCommonDllText()
+DLLCOMMON_V2_API std::string WINAPI getCommonDllText()
 {
 	return std::string("dllCommon_v2");
 }

@@ -6,7 +6,7 @@
 
 
 // This is an example of an exported function.
-DLLCOMMON_V1_API std::string getCommonDllText()
+DLLCOMMON_V1_API std::string WINAPI getCommonDllText()
 {
     return std::string("dllCommon_v1");
 }

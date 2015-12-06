@@ -12,4 +12,4 @@
 
 #include <string>
 
-DLLCOMMON_V2_API std::string getCommonDllText();
+DLLCOMMON_V2_API std::string WINAPI getCommonDllText();

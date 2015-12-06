@@ -5,7 +5,7 @@
 #include "dllA.h"
 #include <dllCommon_v1.h>
 
-DLLA_API std::string GetTextA(void)
+DLLA_API std::string WINAPI GetTextA(void)
 {
 	return std::string("Hello from DllA using ") + getCommonDllText();
 }

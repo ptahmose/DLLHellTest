@@ -12,4 +12,4 @@
 
 #include <string>
 
-DLLB_API std::string GetTextB(void);
+DLLB_API std::string WINAPI GetTextB(void);
